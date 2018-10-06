@@ -100,8 +100,8 @@ public class Coche {//Esto es una clase
 ___
 * #### Sobrecarga de métodos 
 La sobrecarga de métodos se utiliza para para que podamos reutilizar el nombre de un método pero con diferentes argumentos. Haremos uso de un método sobrecargado **cuando al desarrollar el proyecto veamos que, en diferentes ocasiones vamos a necesitar de un mismo método diferentes cosas.**  
-Digamos que de mi clase “primerCoche” en un momento dado puedo necesitar toda la información: su color, el modelo, la matrícula...Entonces creare un método al que llamaré “infoDelCoche”.
-Y que en una ocasión diferente yo necesite recordar si el coche tiene la itv pasada, en este caso crearemos otro método también llamado “infoDelCoche” pero esta vez en lugar de pasarle toda la información, solo voy a pasarle la matrícula y el sistema me dirá si tengo la itv pasada o no. Esto sería un método sobrecargado.
+En el siguiente ejemplo veremos que la clase "Perro" hemos sobrecargado el método "cambiar". Como podrás observar el méto mencionado nateriormente se ha **definido tres veces**, con un parametro de tipo String, uno de tipo Int y con dos de tipoString e Int.  
+Desta manera yo podré utilizar cada método para un "Perro" diferente, obteniendo así de cada uno el resultado que yo quiera.
 ```JAva
 public class Perro
 {
@@ -141,6 +141,34 @@ public class Perro
     }
 }
 ```
+Veamos ahora como pasamos los parametros a cáda método. 
+```Java
+public class PruebaPerro
+{
+    public static void main(String[] args)
+    {
+        Perro perro1 = new Perro("Chispas", 5);
+        Perro perro2 = new Perro("Sombra", 3);
+        Perro perro3 = new Perro("Zeus", 7);
+
+        System.out.println(perro1.getNombre() + " tiene " + perro1.getEdad() + " años.");
+        System.out.println(perro2.getNombre() + " tiene " + perro2.getEdad() + " años.");
+        System.out.println(perro3.getNombre() + " tiene " + perro3.getEdad() + " años.");
+
+        perro1.cambiar("Jaque");
+        perro2.cambiar(4);
+        perro3.cambiar("Goku", 8);
+
+        System.out.println("\nDespués de los cambios:");
+
+        System.out.println(perro1.getNombre() + " tiene " + perro1.getEdad() + " años.");
+        System.out.println(perro2.getNombre() + " tiene " + perro2.getEdad() + " años.");
+        System.out.println(perro3.getNombre() + " tiene " + perro3.getEdad() + " años.");
+    }
+}
+```
+Y lo que veríamos en pantalla...
+![sobrecarga](C:\Users\cynth\OneDrive\Imágenes)
 ___
 * #### Herencia
 Podemos definir la herencia en programación de Java como la manera de plasmar distintos objetos que comparten características en común.
