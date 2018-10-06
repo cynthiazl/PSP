@@ -109,7 +109,60 @@ Evoquemos el comienzo de esto, cuando estábamos viendo que era una clase, si re
 Bien si tenemos nuestra clase “Coche” podemos darnos cuenta de que hay varios tipos de coche todos con “factor común” y a su vez con características que los diferencian. Podemos ver que tenemos coches deportivos, también coches familiares y  todoterreno. 
 
 **Coche es nuestra clase “padre” y de ella descienden las clases “hijo” que comparten cosas, o características,** como por ejemplo todos los coches tienen una cilindrada, todos tienen puertas, cambio de marcha(automático o manual), y todos tienen plazas para los ocupantes. 
-Luego podemos ver que cada tipo de coche tiene una cilindrada diferente, diferente número de puertas, unos tendrán el cambio de marchas automático y otros manual, y variara el número de plazas. 
-
-
+Luego podemos ver que cada tipo de coche tiene una cilindrada diferente, diferente número de puertas, unos tendrán el cambio de marchas automático y otros manual, y variara el número de plazas.
+```Java
+package cotxes;
+//Coche es la Super clase y de ella desciende la clase CocheCanmbioAutomatico
+public class CotxeCanviAutomatic extends Cotxe{ 
+	
+	//nuestro constructor vacio
+	public CotxeCanviAutomatic(String matri) {
+		//en eset momento hacemos referencia a la clase Padre
+		super(matri);
+	}
+	//método ascelerar
+	public void acelerar(double ace){
+		this.velocitat+=ace;
+	if (velocitat>=0 && velocitat<=10){
+		this.marxa=1;
+	}
+	else if(velocitat>10 && velocitat<=30){
+		this.marxa=2;
+	}
+	else if(velocitat>30 && velocitat<=50){
+		this.marxa=3;
+	}
+	else if(velocitat>50 && velocitat<=70){
+		this.marxa=4;
+	}
+	else if(velocitat>70){
+		this.marxa=5;
+	}
+	}
+	//Un método para frenar
+	public void frenar(double fren){
+		this.velocitat-=fren; 
+	if (velocitat>=0 && velocitat<=10){
+		this.marxa=1;
+	}
+	else if(velocitat>10 && velocitat<=30){
+		this.marxa=2;
+	}
+	else if(velocitat>30 && velocitat<=50){
+		this.marxa=3;
+	}
+	else if(velocitat>50 && velocitat<=70){
+		this.marxa=4;
+	}
+	else if(velocitat>70){
+		this.marxa=5;
+	}
+	}
+	//De esta manera lo imprimimos por pantalla
+	@Override
+	public String toString(){
+		return "Coche automàtic\n=========================\nMatrícula: " + this.matricula + 
+		"\nvelocitat: " + this.velocitat + "\nmarxa: " + this.marxa;
+	}
+}
 
