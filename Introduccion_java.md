@@ -167,8 +167,6 @@ public class PruebaPerro
     }
 }
 ```
-Y lo que veríamos en pantalla... 
-![metodoSobrecargado](http://prntscr.com/l2z8gi)
 ___
 * #### Herencia
 Podemos definir la herencia en programación de Java como la manera de plasmar distintos objetos que comparten características en común.
