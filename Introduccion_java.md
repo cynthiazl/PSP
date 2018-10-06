@@ -1,6 +1,7 @@
 # Introducción a Java
 #### Mi intención es que todo tipo de persona pueda entender los pilares de la programación, aún sin tener conocimientos previos sobre ésta.
-* #### Clase * #### Objeto
+* #### Clase
+* #### Objeto
 ¿Qué es una clase Java?. Podemos decir que es, todo lo que engloba las características propias que define a un mismo objeto.   
 Para entenderlo mejor pondré unos ejemplos.  
 Cuando vamos por la calle nos topamos con diferentes tipos de objetos como, coches, personas, fincas, bares…
