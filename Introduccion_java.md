@@ -32,9 +32,8 @@ primerCoche.color = “Negro”;
 primerCoche.marca=”Opel”;
 primerCoche.pasoItv = false;
 
-Como puedes ver, hemos decidido que nuestro coche sea de color negro, de la marca opel y no ha pasado la itv. 
-´´´Java
-
+Como puedes ver, hemos decidido que nuestro coche sea de color negro, de la marca opel y no ha pasado la itv.
+```Java
 
 package vehiculo;
 import java.util.*;
