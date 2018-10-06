@@ -168,7 +168,6 @@ public class PruebaPerro
 }
 ```
 Y lo que veríamos en pantalla... 
-
 ![metodoSobrecargado](http://prntscr.com/l2z8gi)
 ___
 * #### Herencia
