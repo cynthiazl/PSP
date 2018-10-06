@@ -14,22 +14,18 @@ Es momento de pensar en el comportamiento de las clases.
 La pregunta que debemos hacernos ahora es ¿Qué cosas hacen?¿Qué acciones pueden realizar?
 
 Pues un coche por ejemplo, puede arrancar, puede frenar, acelerar, encender las luces, girar a la derecha, también puede pasar la itv o no pasarla.
-
 A estas acciones que deciden el comportamiento(frenar) de una clase(coche) se les conoce en programación como métodos.
-
 Como ya sabemos una clase es algo concreto que define el comportamiento y las características de un determinado tipo de objetos.
 Pensemos en la clase como una plantilla de la cual se pueden fabricar objetos concretos.
 
 Teniendo en cuenta todo lo anterior, podemos crear el coche que queramos utilizando los atributos(características) que nos apetezca y así obtendremos coches concretos, todos coches pero diferentes entre sí.
 
 Coche primerCoche =  new Coche();
-
 Ahora tenemos un coche al que hemos llamado “primerCoche” y pertenece a la clase coche y le daremos las características que queramos.
 
 Una vez tenemos creado el coche, debemos saber que “primerCoche” no va a contener en sí al objeto en sí, sino que contiene una dirección de memoria que apunta a él. Esto significa que Java le ha dedicado un espacio concreto en la memoria para guardar todo lo que le otorgues a “primerCoche”.
 
 La palabra “new” se usa para crear nuevos objetos.
-
 Ahora le vamos a proporcionar características a nuestro coche.
 
 primerCoche.color = “Negro”;
