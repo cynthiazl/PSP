@@ -21,11 +21,11 @@ Pensemos en la clase como una plantilla de la cual se pueden fabricar objetos co
 Teniendo en cuenta todo lo anterior, podemos crear el coche que queramos utilizando los atributos(características) que nos apetezca y así obtendremos coches concretos, todos coches pero diferentes entre sí.
 
 Coche primerCoche =  new Coche();
-Ahora tenemos un coche al que hemos llamado “primerCoche” y pertenece a la clase coche y le daremos las características que queramos.
+Ahora tenemos un coche al que hemos llamado “primerCoche”, pertenece a la clase coche y le daremos las características que queramos.
 
-Una vez tenemos creado el coche, debemos saber que “primerCoche” no va a contener en sí al objeto en sí, sino que contiene una dirección de memoria que apunta a él. Esto significa que Java le ha dedicado un espacio concreto en la memoria para guardar todo lo que le otorgues a “primerCoche”.
+Una vez tenemos creado el coche, *debemos saber que “primerCoche” no va a contener en sí al objeto en sí, sino que contiene una dirección de memoria que apunta a él.* Esto significa que Java le ha dedicado un **espacio concreto en la memoria** para guardar todo lo que le otorgues a “primerCoche”.
 
-La palabra “new” se usa para crear nuevos objetos.
+***La palabra “new” se usa para crear nuevos objetos.***
 Ahora le vamos a proporcionar características a nuestro coche.
 
 primerCoche.color = “Negro”;
