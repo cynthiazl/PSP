@@ -103,4 +103,4 @@ La sobrecarga de métodos se utiliza para para que podamos reutilizar el nombre 
 Digamos que de mi clase “primerCoche” en un momento dado puedo necesitar toda la información: su color, el modelo, la matrícula...Entonces creare un método al que llamaré “infoDelCoche”.
 Y que en una ocasión diferente yo necesite recordar si el coche tiene la itv pasada, en este caso crearemos otro método también llamado “infoDelCoche” pero esta vez en lugar de pasarle toda la información, solo voy a pasarle la matrícula y el sistema me dirá si tengo la itv pasada o no. Esto sería un método sobrecargado.  
 ___
-* ### Herencia
+* #### Herencia
