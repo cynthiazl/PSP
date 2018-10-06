@@ -105,7 +105,7 @@ Y que en una ocasión diferente yo necesite recordar si el coche tiene la itv pa
 ___
 * #### Herencia
 Podemos definir la herencia en programación de Java como la manera de plasmar distintos objetos que comparten características en común.
-Evoquemos el comienzo de esto, cuando estábamos viendo que era una clase, si recuerdas la definición, *decía que una clase es todo aquello que engloba diferentes características de un mismo tipo de cosas* como por ejemplo coches, bares, fincas y mascotas.
+Evoquemos el comienzo de esto, cuando estábamos viendo que era una clase, si recuerdas la definición, *decía que una clase es todo aquello que engloba diferentes características de un mismo tipo de cosas* como por ejemplo coches, bares, fincas y mascotas.  
 Bien si tenemos nuestra clase “Coche” podemos darnos cuenta de que hay varios tipos de coche todos con “factor común” y a su vez con características que los diferencian. Podemos ver que tenemos coches deportivos, también coches familiares y  todoterreno. 
 
 **Coche es nuestra clase “padre” y de ella descienden las clases “hijo” que comparten cosas, o características,** como por ejemplo todos los coches tienen una cilindrada, todos tienen puertas, cambio de marcha(automático o manual), y todos tienen plazas para los ocupantes. 
