@@ -32,66 +32,6 @@ primerCoche.color = “Negro”;
 primerCoche.marca=”Opel”;
 primerCoche.pasoItv = false;
 
-Como puedes ver, hemos decidido que nuestro coche sea de color negro, de la marca opel y no ha pasado la itv.  
-´´´Java 
-
-
-package vehiculo;
-import java.util.*;
-public class Coche {//Esto es una clase
-	public static Scanner teclado = new Scanner(System.in);
-
-	public static void main(String[] args) {//este es el centro del programa, donde sucede todo
-	
-
-		//Ahoar vamos a definir nuestras variables, las carácterticas de los ocches
-		String matricula = "";
-		String color = "blanco";//por defecto el ocche será blanco, si queremos que sea d eotro color debemos indicarlo
-		String modelo  ="";//por defecto no hay modelo, por lo cual si no le asignamos ninguno el resultado será nulo
-		String marca = "";
-		boolean pasoItv= true;//aqui indicamos que no se ha pasado l aITV a menos que indiquemos lo contrario, en ese caso pondremos true
-	
-		velocidadDelCoche();//Llamamos al método
-	}
-	
-	public static void velocidadDelCoche() {//Aqui creamos el metodo que va a calcular la marcha que tenemos puesta en el coche
-		
-		System.out.println("Con este método vamos acalcular que marcha tienes puesta en tu coche");
-		System.out.println("¿A qué velocidad vas? Opta por una de las opciones");
-		System.out.println("1: En reposo, voy a arrancar el coche");
-		System.out.println("2: 20km/H");
-		System.out.println("3: 30km/H");
-		System.out.println("4: 40km/H");
-		System.out.println("5: 50km/H o más");
-
-		
-		int velocidad = teclado.nextInt();
-		
-		
-		switch (velocidad) {
-		case 1:
-			System.out.println("Tienes que pones la primera marcha");
-			break;
-		case 2:
-			System.out.println("La segunda marcha");
-			break;
-		case 3:
-			System.out.println("La tercera marcha");
-			break;
-		case 4:
-			System.out.println("La cuarta marcha");
-			break;
-		case 5:
-			System.out.println("Llevas puesta la quinta marcha y si quieres reducir velocidad cambiarás a las marchas anteriores.");
-			break;
-		default:
-			System.out.println("Debes elegir una opción");
-			break;
-		}
-		
-	}
-}
-
-
+Como puedes ver, hemos decidido que nuestro coche sea de color negro, de la marca opel y no ha pasado la itv.
 
 
