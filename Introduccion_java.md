@@ -1,6 +1,7 @@
 # Introducción a Java
 #### Mi intención es que todo tipo de persona pueda entender los pilares de la programación, aún sin tener conocimientos previos sobre ésta.
 * #### Clase  
+* #### Objeto
 ¿Qué es una clase Java?. Podemos decir que es, todo lo que engloba las características propias que define a un mismo objeto.   
 Para entenderlo mejor pondré unos ejemplos.  
 Cuando vamos por la calle nos topamos con diferentes tipos de objetos como, coches, personas, fincas, bares…
@@ -14,7 +15,7 @@ Es momento de pensar en el comportamiento de las clases.
 La pregunta que debemos hacernos ahora es ¿Qué cosas hacen?¿Qué acciones pueden realizar?
 
 Pues un coche por ejemplo, puede arrancar, puede frenar, acelerar, encender las luces, girar a la derecha, también puede pasar la itv o no pasarla.
-A estas acciones que deciden el comportamiento(frenar) de una clase(coche) se les conoce en programación como métodos.
+A estas acciones que deciden el comportamiento(frenar) de una clase(coche) se les conoce en programación como **métodos.**
 Como ya sabemos una clase es algo concreto que define el comportamiento y las características de un determinado tipo de objetos.
 Pensemos en la clase como una plantilla de la cual se pueden fabricar objetos concretos.
 
@@ -97,4 +98,5 @@ public class Coche {//Esto es una clase
 }
 ```
 ___
-t4wtgw45t45
+* ####Sobrecarga de métodos 
+
