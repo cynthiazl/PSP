@@ -104,3 +104,11 @@ Digamos que de mi clase “primerCoche” en un momento dado puedo necesitar tod
 Y que en una ocasión diferente yo necesite recordar si el coche tiene la itv pasada, en este caso crearemos otro método también llamado “infoDelCoche” pero esta vez en lugar de pasarle toda la información, solo voy a pasarle la matrícula y el sistema me dirá si tengo la itv pasada o no. Esto sería un método sobrecargado.  
 ___
 * #### Herencia
+Podemos definir la herencia en programación de Java como la manera de plasmar distintos objetos que comparten características en común.
+Evoquemos el comienzo de esto, cuando estábamos viendo que era una clase, si recuerdas la definición, *decía que una clase es todo aquello que engloba diferentes características de un mismo tipo de cosas* como por ejemplo coches, bares, fincas y mascotas.
+Bien si tenemos nuestra clase “Coche” podemos darnos cuenta de que hay varios tipos de coche todos con “factor común” y a su vez con características que los diferencian. Podemos ver que tenemos coches deportivos, también coches familiares y  todoterreno. 
+**Coche es nuestra clase “padre” y de ella descienden las clases “hijo” que comparten cosas, o características,** como por ejemplo todos los coches tienen una cilindrada, todos tienen puertas, cambio de marcha(automático o manual), y todos tienen plazas para los ocupantes. 
+Luego podemos ver que cada tipo de coche tiene una cilindrada diferente, diferente número de puertas, unos tendrán el cambio de marchas automático y otros manual, y variara el número de plazas. 
+
+
+
