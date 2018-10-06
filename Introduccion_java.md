@@ -46,8 +46,10 @@ public class Coche {//Esto es una clase
 
 	//Ahoar vamos a definir nuestras variables, las carácterticas de los ocches
 	String matricula = "";
-	String color = "blanco";//por defecto el coche será blanco, si queremos que sea de otro color debemos indicarlo
-	String modelo  ="";//por defecto no hay modelo, por lo cual si no le asignamos ninguno el resultado será nulo
+	//por defecto el coche será blanco, si queremos que sea de otro color debemos indicarlo
+	String color = "blanco";
+	//por defecto no hay modelo, por lo cual si no le asignamos ninguno el resultado será nulo
+	String modelo  ="";
 	String marca = "";
 	//aqui indicamos que no se ha pasado la ITV a menos que indiquemos lo contrario, en ese caso pondremos true
 	boolean pasoItv= true;
@@ -83,7 +85,8 @@ public class Coche {//Esto es una clase
 			System.out.println("La cuarta marcha");
 			break;
 		case 5:
-			System.out.println("Llevas puesta la quinta marcha y si quieres reducir velocidad cambiarás a las marchas anteriores.");
+			System.out.println("Llevas puesta la quinta marcha, si quieres reducir velocidad  
+			debes bajar las marchas.");
 			break;
 		default:
 			System.out.println("Debes elegir una opción");
