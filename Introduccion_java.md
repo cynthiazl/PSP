@@ -34,10 +34,11 @@ primerCoche.pasoItv = false;
 
 Como puedes ver, hemos decidido que nuestro coche sea de color negro, de la marca opel y no ha pasado la itv.  
 ´´´Java 
+
+
 package vehiculo;
 import java.util.*;
-
-public class Coche {//ESto es una clase
+public class Coche {//Esto es una clase
 	public static Scanner teclado = new Scanner(System.in);
 
 	public static void main(String[] args) {//este es el centro del programa, donde sucede todo
