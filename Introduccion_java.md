@@ -165,4 +165,5 @@ public class CotxeCanviAutomatic extends Cotxe{
 		"\nvelocitat: " + this.velocitat + "\nmarxa: " + this.marxa;
 	}
 }
-
+___
+* ####Polimorfismo
