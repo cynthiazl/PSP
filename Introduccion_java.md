@@ -169,7 +169,7 @@ public class PruebaPerro
 ```
 Y lo que veríamos en pantalla... 
 
-![sobrecarga](C:\Users\cynth\OneDrive\Imágenes)
+![](C:\Users\cynth\OneDrive\Imágenes)
 ___
 * #### Herencia
 Podemos definir la herencia en programación de Java como la manera de plasmar distintos objetos que comparten características en común.
