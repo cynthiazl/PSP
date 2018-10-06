@@ -41,20 +41,21 @@ import java.util.*;
 public class Coche {//Esto es una clase
 	public static Scanner teclado = new Scanner(System.in);
 
-	public static void main(String[] args) {//este es el centro del programa, donde sucede todo
+	public static void main(String[] args) {//este es el centro del programa
 	
 
-		//Ahoar vamos a definir nuestras variables, las carácterticas de los ocches
-		String matricula = "";
-		String color = "blanco";//por defecto el ocche será blanco, si queremos que sea d eotro color debemos indicarlo
-		String modelo  ="";//por defecto no hay modelo, por lo cual si no le asignamos ninguno el resultado será nulo
-		String marca = "";
-		boolean pasoItv= true;//aqui indicamos que no se ha pasado l aITV a menos que indiquemos lo contrario, en ese caso pondremos true
+	//Ahoar vamos a definir nuestras variables, las carácterticas de los ocches
+	String matricula = "";
+	String color = "blanco";//por defecto el coche será blanco, si queremos que sea de otro color debemos indicarlo
+	String modelo  ="";//por defecto no hay modelo, por lo cual si no le asignamos ninguno el resultado será nulo
+	String marca = "";
+	//aqui indicamos que no se ha pasado la ITV a menos que indiquemos lo contrario, en ese caso pondremos true
+	boolean pasoItv= true;
 	
 		velocidadDelCoche();//Llamamos al método
 	}
-	
-	public static void velocidadDelCoche() {//Aqui creamos el metodo que va a calcular la marcha que tenemos puesta en el coche
+	//Aqui creamos el metodo que va a calcular la marcha que tenemos puesta en el coche
+	public static void velocidadDelCoche() {
 		
 		System.out.println("Con este método vamos acalcular que marcha tienes puesta en tu coche");
 		System.out.println("¿A qué velocidad vas? Opta por una de las opciones");
