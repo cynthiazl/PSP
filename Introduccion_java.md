@@ -170,4 +170,54 @@ ___
 * #### Polimorfismo 
 *Es cuando objetos distintos comparten propiedades.*
 Volviendo al ejemplo anterior, en la clase Coche crearemos un método que se llamará “devuelve_matricula” por que todos los coches tienen matrícula aunque todas son diferentes. Entonces cuando estemos en la clase “hija” CocheDeportivo llamaremos al método y éste nos devolverá la matrícula de nuestro deportivo, esta misma acción podemos hacerla en la clase “hija” CocheTodoterreno, llamaremos al mismo método y nos devolverá un matrícula diferente a la del deportivo. Esto es el polimorfismo.
+```Java
+public abstract class SeleccionFutbol {
+
+	protected int id;
+	protected String nombre;
+	protected String apellidos;
+	protected int edad;
+
+	// constructores, getter y setter
+
+	public void viajar() {
+	     System.out.println("Viajar (Clase Padre)");
+	}
+
+	public void concentrarse() {
+	     System.out.println("Concentrarse (Clase Padre)");
+	}
+
+	// IMPORTANTE -> METODO ABSTRACTO => no se implementa en la clase abstracta pero si en la clases hijas
+	public abstract void entrenamiento();
+
+	public void partidoFutbol() {
+	     System.out.println("Asiste al Partido de Fútbol (Clase Padre)");
+	}
+}
+```
+```Java
+public class Futbolista extends SeleccionFutbol {
+
+   private int dorsal;
+   private String demarcacion;
+
+   // constructor, getter y setter
+
+   @Override
+   public void entrenamiento() {
+      System.out.println("Realiza un entrenamiento (Clase Futbolista)");
+   }
+
+   @Override
+   public void partidoFutbol() {
+      System.out.println("Juega un Partido (Clase Futbolista)");
+   }
+
+   public void entrevista() {
+      System.out.println("Da una Entrevista");
+   }
+}
+```
+___
 
