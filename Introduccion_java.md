@@ -167,7 +167,8 @@ public class PruebaPerro
     }
 }
 ```
-Y lo que veríamos en pantalla...
+Y lo que veríamos en pantalla... 
+
 ![sobrecarga](C:\Users\cynth\OneDrive\Imágenes)
 ___
 * #### Herencia
