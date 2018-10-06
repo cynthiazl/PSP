@@ -169,8 +169,9 @@ public class CotxeCanviAutomatic extends Cotxe{
 ___
 * #### Polimorfismo 
 *Es cuando objetos distintos comparten propiedades.*
-Volviendo al ejemplo anterior, en la clase Coche crearemos un método que se llamará “devuelve_matricula” por que todos los coches tienen matrícula aunque todas son diferentes.  
-Entonces cuando estemos en la clase “hija” CocheDeportivo llamaremos al método y éste nos devolverá la matrícula de nuestro deportivo, esta misma acción podemos hacerla en la clase “hija” CocheTodoterreno, llamaremos al mismo método y nos devolverá un matrícula diferente a la del deportivo. Esto es el polimorfismo.
+Como verás en el ejemplo siguiente, se usa la palabra "abstract", esto quiere decir que no podremos hacer un **new SeleccionFutbol()** es una clase abstracta y por lo tanto no se puede instanciar.  
+También hemos usado la palabra abstract para un método (entrenamiento), por lo cual todas las clases "hijas" de la clase "SeleccionFutbol" tienen que implementar este método por obligación.  
+Por estos motivos podemos decir que la cloase "SeleccionFutbol" es una clase que puede adoptar diferentes formas y en el siguiente ejemplo puede adoptar la forma de "Futbolista" aunque podria adoptar otras formas como "Entrenador", "Masajista", "Arbitro", en fin, formas que formasen parte de una "SeleccionFutbol" y compartiesen las mismas características id, nombre, apellidos y edad.
 ```Java
 public abstract class SeleccionFutbol {
 
