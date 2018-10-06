@@ -99,9 +99,48 @@ public class Coche {//Esto es una clase
 ```
 ___
 * #### Sobrecarga de métodos 
-La sobrecarga de métodos se utiliza para para que podamos reutilizar el nombre de un método pero con diferentes argumentos. Haremos uso de un método sobrecargado cuando al desarrollar el proyecto veamos que, en diferentes ocasiones vamos a necesitar de un mismo método diferentes cosas.  
+La sobrecarga de métodos se utiliza para para que podamos reutilizar el nombre de un método pero con diferentes argumentos. Haremos uso de un método sobrecargado **cuando al desarrollar el proyecto veamos que, en diferentes ocasiones vamos a necesitar de un mismo método diferentes cosas.**  
 Digamos que de mi clase “primerCoche” en un momento dado puedo necesitar toda la información: su color, el modelo, la matrícula...Entonces creare un método al que llamaré “infoDelCoche”.
-Y que en una ocasión diferente yo necesite recordar si el coche tiene la itv pasada, en este caso crearemos otro método también llamado “infoDelCoche” pero esta vez en lugar de pasarle toda la información, solo voy a pasarle la matrícula y el sistema me dirá si tengo la itv pasada o no. Esto sería un método sobrecargado.  
+Y que en una ocasión diferente yo necesite recordar si el coche tiene la itv pasada, en este caso crearemos otro método también llamado “infoDelCoche” pero esta vez en lugar de pasarle toda la información, solo voy a pasarle la matrícula y el sistema me dirá si tengo la itv pasada o no. Esto sería un método sobrecargado.
+```JAva
+public class Perro
+{
+    private String nombre;
+    private int edad;
+
+    public Perro(String nombre, int edad)
+    {
+        this.nombre = nombre;
+        this.edad = edad;
+    }
+
+    public String getNombre()
+    {
+        return nombre;
+    }
+
+    public int getEdad()
+    {
+        return edad;
+    }
+
+    public void cambiar(String nombre)
+    {
+        this.nombre = nombre;
+    }
+
+    public void cambiar(int edad)
+    {
+        this.edad = edad;
+    }
+
+    public void cambiar(String nombre, int edad )
+    {
+        this.nombre = nombre;
+        this.edad = edad;
+    }
+}
+```
 ___
 * #### Herencia
 Podemos definir la herencia en programación de Java como la manera de plasmar distintos objetos que comparten características en común.
@@ -170,8 +209,8 @@ ___
 * #### Polimorfismo 
 *Es cuando objetos distintos comparten propiedades.*
 Como verás en el ejemplo siguiente, se usa la palabra "abstract", esto quiere decir que no podremos hacer un **new SeleccionFutbol()** es una clase abstracta y por lo tanto no se puede instanciar.  
-También hemos usado la palabra abstract para un método (entrenamiento), por lo cual todas las clases "hijas" de la clase "SeleccionFutbol" tienen que implementar este método por obligación.  
-Por estos motivos podemos decir que la cloase "SeleccionFutbol" es una clase que puede adoptar diferentes formas y en el siguiente ejemplo puede adoptar la forma de "Futbolista" aunque podria adoptar otras formas como "Entrenador", "Masajista", "Arbitro", en fin, formas que formasen parte de una "SeleccionFutbol" y compartiesen las mismas características id, nombre, apellidos y edad.
+También hemos usado la palabra abstract para un método (entrenamiento), por lo cual todas las clases "hijas" de la clase "SeleccionFutbol" **tienen que implementar este método por obligación.**  
+Por estos motivos podemos decir que la clase "SeleccionFutbol" puede adoptar diferentes formas y en el siguiente ejemplo puede tener la forma de "Futbolista" aunque podría tener otras formas como "Entrenador", "Masajista", "Arbitro", en fin, modos que formasen parte de una "SeleccionFutbol" y compartiesen las mismas características id, nombre, apellidos y edad.
 ```Java
 public abstract class SeleccionFutbol {
 
