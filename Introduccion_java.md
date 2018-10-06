@@ -223,4 +223,5 @@ public class Futbolista extends SeleccionFutbol {
 ```
 ___
 * #### Interface 
-
+Una interface es una lista de acciones que puede hacer un objeto determinado, a diferencia de los métodos, en una interface sólo está el prototipo de una función pero no su código.
+___
