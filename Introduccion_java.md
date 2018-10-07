@@ -288,8 +288,9 @@ public class Futbolista extends SeleccionFutbol {
 ```
 ___
 * #### Interface 
-Una interface es una clase totalment5e abstracta y sólo tiene métodos que también son abstractos. Es necesario que las classes implementen todos los métodos declarados en las interfaces.  
-Para declarar una clase que implemente una Interfaz es necesario usar la palabra "implements" .
+Una interface **es una clase totalmente abstracta y sólo tiene métodos que también son abstractos.** Es necesario que las classes implementen todos los métodos declarados en las interfaces.  
+Para declarar una clase que implemente una Interfaz *es necesario usar la palabra "implements".*  
+En el siguiente ejemplo la clase Acumulador implementa la interfaz "Modificacion", por lo cual debe declarar un método incremento.
 ```Java 
 /**
  * Declaracion de la clase Acumulador
