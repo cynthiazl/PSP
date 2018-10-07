@@ -288,5 +288,27 @@ public class Futbolista extends SeleccionFutbol {
 ```
 ___
 * #### Interface 
-Una interface es una lista de acciones que puede hacer un objeto determinado, a diferencia de los métodos, en una interface sólo está el prototipo de una función pero no su código.
+Una interface es una clase totalment5e abstracta y sólo tiene métodos que también son abstractos. Es necesario que las classes implementen todos los métodos declarados en las interfaces.  
+Para declarar una clase que implemente una Interfaz es necesario usar la palabra "implements" .
+```Java 
+/**
+ * Declaracion de la clase Acumulador
+ */
+public class Acumulador implements Modificacion {
+    private int valor;
+ 
+    public Acumulador (int i) {
+        this.valor = i;
+    }
+ 
+    public int daValor () {
+        return this.valor;
+    }
+ 
+    public void incremento (int a) {
+        this.valor += a;
+    }
+}
+```
+
 ___
