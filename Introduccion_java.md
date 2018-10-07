@@ -311,5 +311,17 @@ public class Acumulador implements Modificacion {
     }
 }
 ```
-
+En el siguiente código vemos un ejemplo del uso de la clase "Acumulador".
+```Java
+/**
+ * Demostracion de la clase Acumulador
+ */
+public class PruebaAcumulador {
+    public static void main (String [] args) {
+        Acumulador p = new Acumulador(25);
+        p.incremento(12);
+        System.out.println(p.daValor());
+    }
+}
+```
 ___
