@@ -1,0 +1,60 @@
+####Ejercicio con Herencia
+* Empleado
+```Java
+
+public class Empleado {
+
+	private String nombre;
+
+	public Empleado() {
+
+	}
+
+	public Empleado(String nombre) {
+		this.nombre = nombre;
+	}
+
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+	public String toString() {
+		return " Empleado " + this.nombre + " ->";
+	}
+}
+```
+* Operario
+```Java
+
+
+public class Operario extends Empleado {
+	
+	public Operario(String nombre) {
+		super(nombre);
+	}
+
+
+	public String toString() {
+		return super.toString() + " Operario " + " ->";
+	}
+}
+
+```
+* Directivo
+```Java
+
+public class Directivo extends Empleado {
+
+	
+	public Directivo(String nombre) {
+		super(nombre);
+	}
+	public String toString() {
+		return super.toString() + " Directivo ";
+	}
+}
+```
