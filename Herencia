@@ -1,7 +1,7 @@
 #### Ejercicio con Herencia
 * Empleado
-```Java
 
+```Java
 public class Empleado {
 
 	private String nombre;
@@ -27,6 +27,9 @@ public class Empleado {
 	}
 }
 ```
+
+
+
 * Operario
 ```Java
 
