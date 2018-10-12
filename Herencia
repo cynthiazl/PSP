@@ -1,4 +1,4 @@
-####Ejercicio con Herencia
+#### Ejercicio con Herencia
 * Empleado
 ```Java
 
@@ -29,7 +29,6 @@ public class Empleado {
 ```
 * Operario
 ```Java
-
 
 public class Operario extends Empleado {
 	
