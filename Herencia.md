@@ -27,9 +27,7 @@ public class Empleado {
 	}
 }
 ```
-
-
-
+___
 * Operario
 ```Java
 
@@ -46,6 +44,7 @@ public class Operario extends Empleado {
 }
 
 ```
+___
 * Directivo
 ```Java
 
@@ -60,6 +59,7 @@ public class Directivo extends Empleado {
 	}
 }
 ```
+____
 * Tecnico
 ```Java
 
@@ -75,6 +75,7 @@ public class Tecnico extends Operario {
 }
 ```
 * Oficial
+___
 ```Java
 
 public class Oficial extends Operario {
@@ -88,6 +89,7 @@ public class Oficial extends Operario {
 	}
 }
 ```
+____
 * Programa Principal
 ```Java
 
@@ -111,3 +113,4 @@ public class ProgramaPrincipal {
 
 }
 ```
+____
