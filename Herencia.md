@@ -1,6 +1,5 @@
 #### Ejercicio con Herencia
 * Empleado
-Como puedes ver, hemos decidido que nuestro coche sea de color negro, de la marca opel y no ha pasado la itv.
 ```Java
 
 public class Empleado {
