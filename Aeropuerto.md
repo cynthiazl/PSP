@@ -105,6 +105,7 @@ class ImagePanel extends JPanel {
 }
 ```
 <img src="https://github.com/cynthiazl/PSP/blob/master/pag_principal.png" width="350"/>
+
 ```Java
 import java.awt.BorderLayout;
 import java.awt.Color;
