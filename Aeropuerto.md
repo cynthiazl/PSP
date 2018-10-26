@@ -106,6 +106,7 @@ class ImagePanel extends JPanel {
 ```
 <img src="https://github.com/cynthiazl/PSP/blob/master/pag_principal.png" width="350"/>
 
+**Clase buscador**
 ```Java
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -288,3 +289,76 @@ public class Buscador extends JFrame {
 }
 ```
 <img src="https://github.com/cynthiazl/PSP/blob/master/buscador.png" width="350"/>
+
+**Clase Aeropuerto**
+```Java
+
+public class Airport {
+
+	private int id;
+	private String code;
+	private String name;
+	private String city;
+	private String country;
+	private double latitude;
+	private double longitude;
+	
+	public Airport(int id, String code, String name, String city, String country, double latitude, double longitude) {
+		
+		this.id = id;
+		this.code = code;
+		this.name = name;
+		this.city = city;
+		this.country = country;
+		this.latitude = latitude;
+		this.longitude = longitude;
+	}
+	
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getCode() {
+		return code;
+	}
+	public void setCode(String code) {
+		this.code = code;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getCity() {
+		return city;
+	}
+	public void setCity(String city) {
+		this.city = city;
+	}
+	public String getCountry() {
+		return country;
+	}
+	public void setCountry(String country) {
+		this.country = country;
+	}
+	public double getLatitude() {
+		return latitude;
+	}
+	public void setLatitude(double latitude) {
+		this.latitude = latitude;
+	}
+	public double getLongitude() {
+		return longitude;
+	}
+	public void setLongitude(double longitude) {
+		this.longitude = longitude;
+	}
+	public String ToString() {
+		return "Aeropuerto " + this.name + " ciudad " + this.city + " país " + this.country + " Cod " + this.code;
+	}
+	
+}
+```
