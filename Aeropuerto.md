@@ -362,3 +362,54 @@ public class Airport {
 	
 }
 ```
+**Clase para leer el fichero csv**
+```Java
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.ArrayList;
+
+import javax.swing.text.AbstractDocument.LeafElement;
+
+public class LeoFichero {
+
+	public ArrayList<Airport> Lee() {
+
+		ArrayList<Airport> airports = new ArrayList<Airport>();
+		String leoCSV = ""; 
+		
+		try {
+			File fichero = new File("airports.csv");
+			FileReader leer = new FileReader(fichero);
+			
+			BufferedReader leoLineas = new BufferedReader(leer);
+			
+			while ((leoCSV = leoLineas.readLine()) != null) {
+				String[] datos = leoCSV.split(",(?=([^\"]*\"[^\"]*\")*[^\"]*$)");
+				
+				//imprime datos
+				//System.out.println(datos[6]);
+				
+				Airport airport = new Airport(Integer.parseInt(datos[0]), datos[4], datos[1], datos[2], datos[3], Double.parseDouble(datos[6]), Double.parseDouble(datos[7]));
+				
+				airports.add(airport);
+				
+			}
+			
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		return airports;
+
+	}
+
+}
+```
