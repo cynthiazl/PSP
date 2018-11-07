@@ -18,4 +18,9 @@ Es una ejecución concreta de un programa, con un camino determinado y un valor 
 **listo y suspendido.**  
 *Ejemplo:* arranque del pc. 
 ### *Hilo:*
+Es la unidad básica de ejecución de OS. Cualquier programa que se ejecute consta de al menos un hilo (*thread*).  
+Se puede considerar como la agrupación de un "trozo" de programa junto al grupo de registros del procesador que utiliza y una pila de máquina. 
+### *Programación concurrente*
+Técnicas de programación que son usadas para expresar la concurrencia entre tareas, solución de los problemas de comunicación ysincronización de procesos.  
+Estas tareas pueden ser un conjunto de procesos o hilos de ejecución creados por un único porgrama. 
 
