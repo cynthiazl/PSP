@@ -7,4 +7,15 @@ No es aplicación: sistema oprativo.
 ### *Servicio:*
 Es un grupo de actividades que busca responder a la snecesidades de un cliente.  
 La tecnología permite muchas cosas pero el rendimiento es una de las cosas más importantes.  
-Un ejemplo de servicio sería el **antivirus**.
+Un ejemplo de servicio sería el **antivirus**. 
+### *Proceso:*
+Es una ejecución concreta de un programa, con un camino determinado y un valor de sus variables determinados.  
+***Estados en los que puede estar un proceso***  
+listo: tiene todo lo que necesita para ejecutarse excepto el procesador.  
+suspendido: no está en memoria principal.  
+bloqueado: esta esperando un evento.  
+bloqueado y suspendido.  
+listo y suspendido.  
+*Ejemplo:* arranque del pc. 
+### *Hilo:*
+
