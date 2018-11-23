@@ -123,6 +123,7 @@ public class AbrirApp extends JFrame {
 					// crea un proceso
 					ProcessBuilder pc = new ProcessBuilder("\"C:\\WINDOWS\\system32\\mspaint.exe\"", "");
 					pc.start();
+					
 				} catch (Exception es) {
 					System.out.println("Exception " + es);
 				}
