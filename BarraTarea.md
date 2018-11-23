@@ -31,7 +31,6 @@ public class AbrirApp extends JFrame {
 			public void run() {
 
 				try {
-
 					AbrirApp frame = new AbrirApp();
 					frame.setVisible(true);
 
@@ -39,14 +38,12 @@ public class AbrirApp extends JFrame {
 					ImageIcon img = new ImageIcon("icono.jpg");
 					frame.setIconImage(img.getImage());
 					frame.setResizable(false);
-
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
 			}
 		});
 	}
-
 	/**
 	 * Create the frame.
 	 */
@@ -68,18 +65,17 @@ public class AbrirApp extends JFrame {
 		JButton btnSptofy = new JButton("Sptofy");
 		btnSptofy.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-
+			
 				try {
 					// crea un proceso
 					ProcessBuilder pb = new ProcessBuilder(
-							"\"C:\\Users\\cynth\\AppData\\Roaming\\Spotify\\Spotify.exe\"", "");
+					"\"C:\\Users\\cynth\\AppData\\Roaming\\Spotify\\Spotify.exe\"", "");
 					// parametro 1 ruta, parametro 2 especifica el archivo que quiero abrir
 					pb.start();
 
 				} catch (Exception e) {
 
 					System.out.println("Exception " + e);
-
 				}
 			}
 		});
@@ -104,7 +100,6 @@ public class AbrirApp extends JFrame {
 				} catch (Exception es) {
 
 					System.out.println("Exception " + es);
-
 				}
 			}
 		});
@@ -128,7 +123,6 @@ public class AbrirApp extends JFrame {
 				} catch (Exception es) {
 
 					System.out.println("Exception " + es);
-
 				}
 
 			}
@@ -154,7 +148,6 @@ public class AbrirApp extends JFrame {
 				} catch (Exception es) {
 
 					System.out.println("Exception " + es);
-
 				}
 			}
 		});
@@ -180,12 +173,10 @@ public class AbrirApp extends JFrame {
 			setSize(size);
 			setLayout(null);
 		}
-
 		public void paintComponent(Graphics g) {
 			g.drawImage(img, 0, 0, null);
 		}
 	}
 }
-
 ```
 ___
