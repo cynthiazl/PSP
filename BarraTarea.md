@@ -20,7 +20,7 @@ import java.awt.Color;
 
 public class AbrirApp extends JFrame {
 
-	private JPanel contentPane;	
+	private JPanel contentPane;
 	private Image imagen;
 
 	/**
@@ -29,16 +29,17 @@ public class AbrirApp extends JFrame {
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
-				
+
 				try {
-					
+
 					AbrirApp frame = new AbrirApp();
 					frame.setVisible(true);
-					
+
+					// Icono de la ventana
 					ImageIcon img = new ImageIcon("icono.jpg");
-					frame.setIconImage(img.getImage());	
+					frame.setIconImage(img.getImage());
 					frame.setResizable(false);
-					
+
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
@@ -58,24 +59,25 @@ public class AbrirApp extends JFrame {
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
-		
+
 		JLabel lblAbrir = new JLabel("Ejecutar mis 4 aplicaciones preferidas");
 		lblAbrir.setFont(new Font("Caladea", Font.BOLD, 22));
 		lblAbrir.setBounds(207, 37, 396, 29);
 		contentPane.add(lblAbrir);
-		
+
 		JButton btnSptofy = new JButton("Sptofy");
 		btnSptofy.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				
+
 				try {
-					//crea un proceso
-					ProcessBuilder pb = new ProcessBuilder("\"C:\\Users\\cynth\\AppData\\Roaming\\Spotify\\Spotify.exe\"", "");
-					//parametro 1 ruta, parametro 2 especifica el archivo que quiero abrir
+					// crea un proceso
+					ProcessBuilder pb = new ProcessBuilder(
+							"\"C:\\Users\\cynth\\AppData\\Roaming\\Spotify\\Spotify.exe\"", "");
+					// parametro 1 ruta, parametro 2 especifica el archivo que quiero abrir
 					pb.start();
-					
+
 				} catch (Exception e) {
-					
+
 					System.out.println("Exception " + e);
 
 				}
@@ -83,23 +85,24 @@ public class AbrirApp extends JFrame {
 		});
 		btnSptofy.setBounds(52, 360, 115, 29);
 		contentPane.add(btnSptofy);
-		
+
 		ImagePanel imagePanel1 = new ImagePanel(new ImageIcon("spotify_logo.jpg").getImage());
 		imagePanel1.setBounds(60, 250, 250, 250);
 		contentPane.add(imagePanel1);
-		
+
 		JButton btnTelegram = new JButton("Telegram");
-		btnTelegram.addActionListener(new ActionListener() {		
+		btnTelegram.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
-	
+
 				try {
-					//crea un proceso
-					ProcessBuilder pbv = new ProcessBuilder("\"C:\\Users\\cynth\\AppData\\Roaming\\Telegram Desktop\\Telegram.exe\"", "");
+					// crea un proceso
+					ProcessBuilder pbv = new ProcessBuilder(
+							"\"C:\\Users\\cynth\\AppData\\Roaming\\Telegram Desktop\\Telegram.exe\"", "");
 					pbv.start();
-					
+
 				} catch (Exception es) {
-					
+
 					System.out.println("Exception " + es);
 
 				}
@@ -107,60 +110,62 @@ public class AbrirApp extends JFrame {
 		});
 		btnTelegram.setBounds(258, 360, 115, 29);
 		contentPane.add(btnTelegram);
-		
+
 		ImagePanel imagePanel2 = new ImagePanel(new ImageIcon("telegram_logo.png").getImage());
 		imagePanel2.setBounds(270, 250, 250, 250);
 		contentPane.add(imagePanel2);
-		
+
 		JButton btnPaint = new JButton("Paint");
 		btnPaint.addActionListener(new ActionListener() {
-			
+
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				
+
 				try {
-					//crea un proceso
+					// crea un proceso
 					ProcessBuilder pc = new ProcessBuilder("\"C:\\WINDOWS\\system32\\mspaint.exe\"", "");
 					pc.start();
 				} catch (Exception es) {
-					
+
 					System.out.println("Exception " + es);
 
 				}
-				
+
 			}
 		});
 		btnPaint.setBounds(459, 360, 115, 29);
 		contentPane.add(btnPaint);
-		
+
 		ImagePanel imagePanel3 = new ImagePanel(new ImageIcon("paint_logo.png").getImage());
 		imagePanel3.setBounds(470, 250, 250, 250);
 		contentPane.add(imagePanel3);
-		
+
 		JButton btnAndroid = new JButton("Android Studio");
 		btnAndroid.addActionListener(new ActionListener() {
-			
+
 			@Override
 			public void actionPerformed(ActionEvent e) {
-			
+
 				try {
-					//crea un proceso
-					ProcessBuilder pcd = new ProcessBuilder("\"C:\\Program Files\\Android\\Android Studio\\bin\\studio64.exe\"", "");
+					// crea un proceso
+					ProcessBuilder pcd = new ProcessBuilder(
+							"\"C:\\Program Files\\Android\\Android Studio\\bin\\studio64.exe\"", "");
 					pcd.start();
 				} catch (Exception es) {
-					
+
 					System.out.println("Exception " + es);
 
-				}			
+				}
 			}
 		});
 		btnAndroid.setBounds(650, 360, 145, 29);
 		contentPane.add(btnAndroid);
-		
+
 		ImagePanel imagePanel4 = new ImagePanel(new ImageIcon("android_logo.jpg").getImage());
 		imagePanel4.setBounds(670, 250, 250, 250);
 		contentPane.add(imagePanel4);
 	}
+
 	class ImagePanel extends JPanel {
 		private Image img;
 
@@ -181,5 +186,6 @@ public class AbrirApp extends JFrame {
 		}
 	}
 }
+
 ```
 ___
