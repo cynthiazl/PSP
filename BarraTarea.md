@@ -48,6 +48,7 @@ public class AbrirApp extends JFrame {
 	 * Create the frame.
 	 */
 	public AbrirApp() {
+	
 		setTitle("Barra de tareas\r\n");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 831, 573);
@@ -82,6 +83,7 @@ public class AbrirApp extends JFrame {
 		btnSptofy.setBounds(52, 360, 115, 29);
 		contentPane.add(btnSptofy);
 
+		//cargar imagen
 		ImagePanel imagePanel1 = new ImagePanel(new ImageIcon("spotify_logo.jpg").getImage());
 		imagePanel1.setBounds(60, 250, 250, 250);
 		contentPane.add(imagePanel1);
@@ -106,6 +108,7 @@ public class AbrirApp extends JFrame {
 		btnTelegram.setBounds(258, 360, 115, 29);
 		contentPane.add(btnTelegram);
 
+		//cargo la imagen
 		ImagePanel imagePanel2 = new ImagePanel(new ImageIcon("telegram_logo.png").getImage());
 		imagePanel2.setBounds(270, 250, 250, 250);
 		contentPane.add(imagePanel2);
@@ -121,7 +124,6 @@ public class AbrirApp extends JFrame {
 					ProcessBuilder pc = new ProcessBuilder("\"C:\\WINDOWS\\system32\\mspaint.exe\"", "");
 					pc.start();
 				} catch (Exception es) {
-
 					System.out.println("Exception " + es);
 				}
 
@@ -136,7 +138,6 @@ public class AbrirApp extends JFrame {
 
 		JButton btnAndroid = new JButton("Android Studio");
 		btnAndroid.addActionListener(new ActionListener() {
-
 			@Override
 			public void actionPerformed(ActionEvent e) {
 
