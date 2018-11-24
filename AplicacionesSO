@@ -1,6 +1,9 @@
-## Abrir aplicaciones del Sistema Operativo
-```Java
+## Aplicaciones del Sistema Operativo
+* Abrir aplicación de PDF
+* Abrir una hoja de cálculo
+* Mostrar por consola la versión instalada de Java
 
+```Java
 import java.awt.BorderLayout;
 import java.awt.EventQueue;
 
@@ -42,6 +45,7 @@ public class AbrirAp extends JFrame {
 	 * Create the frame.
 	 */
 	public AbrirAp() {
+		//Modifico el titulo de la ventana
 		setTitle("Aplicaciones del SO");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 676, 609);
@@ -51,6 +55,7 @@ public class AbrirAp extends JFrame {
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 
+		//titulo
 		JLabel lblAbrirAplicacionesDel = new JLabel("Abrir Aplicaciones del Sistema Operativo");
 		lblAbrirAplicacionesDel.setFont(new Font("Malgun Gothic Semilight", Font.BOLD, 24));
 		lblAbrirAplicacionesDel.setBounds(90, 79, 474, 33);
