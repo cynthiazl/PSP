@@ -124,3 +124,6 @@ public class AbrirAp extends JFrame {
 	}
 }
 ```
+<img src="https://github.com/cynthiazl/PSP/blob/master/abrirApSO.png" width="350">
+
+____
