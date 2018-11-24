@@ -181,4 +181,5 @@ public class AbrirApp extends JFrame {
 	}
 }
 ```
+<img src="https://github.com/cynthiazl/PSP/blob/master/barraTareas.png" width="350"/>
 ___
