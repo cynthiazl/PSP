@@ -3,12 +3,15 @@ Es un programa informático o un conjunto de ellos que hacen una tarea específi
 Es importante concretar que **no todos los programas informáticos son aplicaciones.** Hay diferentes software en el mercado, pero una aplicación es aquella que se diseña con un fin determinado, para realizar tareas concretas.  
 *Ejemplos:*  
 Es aplicación: todos los juegos, trello.  
-No es aplicación: sistema oprativo. 
-[más aquí](https://sistemas.com/aplicacion.php) 
+No es aplicación: sistema oprativo.  
+
 <img src="https://github.com/cynthiazl/PSP/blob/master/aplicacion.jpg" width="350"
-/> 
+/>   
+
+[más aquí](https://sistemas.com/aplicacion.php) 
+
 ___
-### *Servicio:*
+### * Servicio: *
 Es un grupo de actividades que busca responder a la snecesidades de un cliente.  
 La tecnología permite muchas cosas pero el rendimiento es una de las cosas más importantes.  
 Un ejemplo de servicio sería el **antivirus**. 
