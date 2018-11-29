@@ -61,7 +61,7 @@ Técnicas de programación que son usadas para expresar la concurrencia entre ta
 Estas tareas pueden ser un conjunto de procesos o hilos de ejecución creados por un único porgrama. 
 
 <p align = "center">
-<img src="https://github.com/cynthiazl/PSP/blob/master/hilos.jpg" width="350"
+<img src="https://github.com/cynthiazl/PSP/blob/master/programacionConcurrente.jpg" width="350"
 />  
  </p> 
 
@@ -72,10 +72,20 @@ Es el uso simultaneo de múltiples recursos computacionales para resolver un pro
 *Ejemplo:*  
 el uso de las gráficas generadas por ordenador. La generación de fotograma requiere de una gran cantidad de cálculos matemáticos. Esto supone una tarea muy difícil para un solo procesador, luego es necesario que haya algún tipo de paralelismo, para así distribuir la tarea que está realizada eficiente y eficazmente. 
 
+<p align = "center">
+<img src="https://github.com/cynthiazl/PSP/blob/master/programacionParalela.jpeg" width="350"
+/>  
+ </p> 
+ 
 [más información aquí](https://www2.ulpgc.es/hege/almacen/download/20/20233/tema1.pdf)
 ___
 ### Programación distribuida:
 Es un paradigma de programación enfocado en desarrollar sistemas distribuidos, abiertos, escalables y tolerante a fallos. Los lenguajes de programación distribuida son: Ada, Alef, E, Erlang, Limbo y Oz.  
 
+<p align = "center">
+<img src="https://github.com/cynthiazl/PSP/blob/master/programacionDistribuida.jpg" width="350"
+/>  
+ </p> 
+ 
 [más información aquí](https://www2.ulpgc.es/hege/almacen/download/20/20233/tema1.pdf)
 ___
