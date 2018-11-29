@@ -48,7 +48,7 @@ Es una ejecución concreta de un programa, que esta bajo ocntrol del Sistema Ope
 ___
 ### Hilo:
 Es la unidad básica de ejecución de OS. Cualquier programa que se ejecute consta de al menos un hilo (*thread*).  
-Se puede considerar como la agrupación de un "trozo" de programa junto al grupo de registros del procesador que utiliza y una pila de máquina. 
+Se puede considerar como cada secuencia de control dentro de un proceso que ejecuta sus instrucciones de manera independiente.
 
 <p align = "center">
 <img src="https://github.com/cynthiazl/PSP/blob/master/hilos.jpg" width="350"
@@ -59,7 +59,7 @@ Se puede considerar como la agrupación de un "trozo" de programa junto al grupo
 
 ___
 
-### *Programación concurrente:*
+### Programación concurrente:
 Técnicas de programación que son usadas para expresar la concurrencia entre tareas, solución de los problemas de comunicación ysincronización de procesos.  
 Estas tareas pueden ser un conjunto de procesos o hilos de ejecución creados por un único porgrama. 
 
