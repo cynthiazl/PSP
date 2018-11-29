@@ -1,4 +1,4 @@
-#Actividad sobre definiciones y ejemplos
+# Actividad sobre definiciones con ejemplos y enlaces
 ###  Aplicación: 
 Es un programa informático o un conjunto de ellos que hacen una tarea específica, diseñado para el uso de usuarios.  
 Es importante concretar que **no todos los programas informáticos son aplicaciones.** Hay diferentes software en el mercado, pero una aplicación es aquella que se diseña con un fin determinado, para realizar tareas concretas.  
@@ -14,10 +14,14 @@ No es aplicación: sistema oprativo.
 [más información aquí](https://sistemas.com/aplicacion.php) 
 
 ___
-### * Servicio: *
-Es un grupo de actividades que busca responder a la snecesidades de un cliente.  
-La tecnología permite muchas cosas pero el rendimiento es una de las cosas más importantes.  
+### Servicio: 
+Son programas o o aplicaciones cargadas por el propio sistema operativo. Estas aplicaciones tienen la carácteristica de encontrarse corriendo en segundo plano.  
+Por defecto, con la instalación se instalan y se ejecutan X cantidad de servicios. A veces los necesitamos y otras nom depende de nuestra snecesidades.
+Normalmente un servicio es un programa que atiene a otro programa.
 Un ejemplo de servicio sería el **antivirus**. 
+
+[más información aquí](http://cidecame.uaeh.edu.mx/lcc/mapa/PROYECTO/libro26/servicios_del_sistema_operativo_para_la_gestin_de_procesos.html)
+
 ### *Proceso:*
 Es una ejecución concreta de un programa, con un camino determinado y un valor de sus variables determinados.  
 ***Estados en los que puede estar un proceso:***  
