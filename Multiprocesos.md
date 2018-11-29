@@ -28,7 +28,6 @@ Un ejemplo de servicio sería el **antivirus**.
 [más información aquí](http://cidecame.uaeh.edu.mx/lcc/mapa/PROYECTO/libro26/servicios_del_sistema_operativo_para_la_gestin_de_procesos.html)
 
 ___
-
 ### Proceso:
 Es una ejecución concreta de un programa, que esta bajo ocntrol del Sistema Operativo. Un proceso **no** accede a la zona de memoria dedicada a otros procesos.  
 ***Estados en los que puede estar un proceso:***  
@@ -56,20 +55,27 @@ Se puede considerar como cada secuencia de control dentro de un proceso que ejec
  </p> 
 
 [más información aquí](https://facturapp.weebly.com/hilos.html)
-
 ___
-
 ### Programación concurrente:
 Técnicas de programación que son usadas para expresar la concurrencia entre tareas, solución de los problemas de comunicación ysincronización de procesos.  
 Estas tareas pueden ser un conjunto de procesos o hilos de ejecución creados por un único porgrama. 
 
+<p align = "center">
+<img src="https://github.com/cynthiazl/PSP/blob/master/hilos.jpg" width="350"
+/>  
+ </p> 
 
+[más información aquí](https://www2.ulpgc.es/hege/almacen/download/20/20233/tema1.pdf)
+___
 ### Programación paralela:
 Es el uso simultaneo de múltiples recursos computacionales para resolver un problema informático.  
 *Ejemplo:*  
 el uso de las gráficas generadas por ordenador. La generación de fotograma requiere de una gran cantidad de cálculos matemáticos. Esto supone una tarea muy difícil para un solo procesador, luego es necesario que haya algún tipo de paralelismo, para así distribuir la tarea que está realizada eficiente y eficazmente. 
 
+[más información aquí](https://www2.ulpgc.es/hege/almacen/download/20/20233/tema1.pdf)
 ___
 ### Programación distribuida:
 Es un paradigma de programación enfocado en desarrollar sistemas distribuidos, abiertos, escalables y tolerante a fallos. Los lenguajes de programación distribuida son: Ada, Alef, E, Erlang, Limbo y Oz.  
+
+[más información aquí](https://www2.ulpgc.es/hege/almacen/download/20/20233/tema1.pdf)
 ___
