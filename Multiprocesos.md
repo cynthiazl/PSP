@@ -20,6 +20,11 @@ Por defecto, con la instalación se instalan y se ejecutan X cantidad de servici
 Normalmente un servicio es un programa que atiene a otro programa.
 Un ejemplo de servicio sería el **antivirus**. 
 
+<p align = "center">
+<img src="https://github.com/cynthiazl/PSP/blob/master/serviciosSO.jpg" width="350"
+/>  
+ </p> 
+
 [más información aquí](http://cidecame.uaeh.edu.mx/lcc/mapa/PROYECTO/libro26/servicios_del_sistema_operativo_para_la_gestin_de_procesos.html)
 
 ### *Proceso:*
