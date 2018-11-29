@@ -30,7 +30,7 @@ Un ejemplo de servicio sería el **antivirus**.
 ___
 
 ### Proceso:
-Es una ejecución concreta de un programa, con un camino determinado y un valor de sus variables determinados.  
+Es una ejecución concreta de un programa, que esta bajo ocntrol del Sistema Operativo. Un proceso **no** accede a la zona de memoria dedicada a otros procesos.  
 ***Estados en los que puede estar un proceso:***  
 **listo:** tiene todo lo que necesita para ejecutarse excepto el procesador.  
 **suspendido:** no está en memoria principal.  
@@ -39,10 +39,26 @@ Es una ejecución concreta de un programa, con un camino determinado y un valor 
 **listo y suspendido.**  
 *Ejemplo:* arranque del pc. 
 
+<p align = "center">
+<img src="https://github.com/cynthiazl/PSP/blob/master/procesoEstados.png" width="350"
+/>  
+ </p> 
+
+[más información aquí](https://facturapp.weebly.com/hilos.html)
 ___
 ### Hilo:
 Es la unidad básica de ejecución de OS. Cualquier programa que se ejecute consta de al menos un hilo (*thread*).  
 Se puede considerar como la agrupación de un "trozo" de programa junto al grupo de registros del procesador que utiliza y una pila de máquina. 
+
+<p align = "center">
+<img src="https://github.com/cynthiazl/PSP/blob/master/hilos.jpg" width="350"
+/>  
+ </p> 
+
+[más información aquí](https://facturapp.weebly.com/hilos.html)
+
+___
+
 ### *Programación concurrente:*
 Técnicas de programación que son usadas para expresar la concurrencia entre tareas, solución de los problemas de comunicación ysincronización de procesos.  
 Estas tareas pueden ser un conjunto de procesos o hilos de ejecución creados por un único porgrama. 
