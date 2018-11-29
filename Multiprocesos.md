@@ -80,7 +80,7 @@ el uso de las gráficas generadas por ordenador. La generación de fotograma req
 [más información aquí](https://www2.ulpgc.es/hege/almacen/download/20/20233/tema1.pdf)
 ___
 ### Programación distribuida:
-Es un paradigma de programación enfocado en desarrollar sistemas distribuidos, abiertos, escalables y tolerante a fallos. Los lenguajes de programación distribuida son: Ada, Alef, E, Erlang, Limbo y Oz.  
+Es un sistema diseñado para ejecutarse simultáneamente en una red de procesadores autónomos, que no comparten la memoria principal con cada programa en su procesador aparte. 
 
 <p align = "center">
 <img src="https://github.com/cynthiazl/PSP/blob/master/programacionDistribuida.jpg" width="350"
