@@ -32,11 +32,11 @@ ___
 ### Proceso:
 Es una ejecución concreta de un programa, que esta bajo ocntrol del Sistema Operativo. Un proceso **no** accede a la zona de memoria dedicada a otros procesos.  
 ***Estados en los que puede estar un proceso:***  
-1.**listo:** tiene todo lo que necesita para ejecutarse excepto el procesador.  
-2.**suspendido:** no está en memoria principal.  
-3.**bloqueado:** esta esperando un evento.  
-4.**bloqueado y suspendido.**  
-5.**listo y suspendido.**  
+1. **listo:** tiene todo lo que necesita para ejecutarse excepto el procesador.  
+2. **suspendido:** no está en memoria principal.  
+3. **bloqueado:** esta esperando un evento.  
+4. **bloqueado y suspendido.**  
+5. **listo y suspendido.**  
 *Ejemplo:* arranque del pc. 
 
 <p align = "center">
