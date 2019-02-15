@@ -73,5 +73,5 @@ ____
 
 ***Imgaen de la interfaz con la información***
 
-<img src="https://github.com/cynthiazl/PSP/upload/master/scrapping.png" width="350"/>
+<img src="https://github.com/cynthiazl/PSP/blob/master/scrapping.png" width="350"/>
 
