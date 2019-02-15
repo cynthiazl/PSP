@@ -179,3 +179,5 @@ public class FormularioAtaqueDDOS extends JFrame {
 ___
 
 ***Imagen de l a Interfaz***
+
+<img src="https://github.com/cynthiazl/PSP/blob/master/interefaz.png" width="350"/>
