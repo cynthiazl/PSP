@@ -72,4 +72,5 @@ public class Controller {
 ____
 
 ***Imgaen de la interfaz con la información***
-https://github.com/cynthiazl/PSP/upload/master
+<img src="https://github.com/cynthiazl/PSP/upload/master/scrapping.png" width="350"/>
+
