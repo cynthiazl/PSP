@@ -1,6 +1,6 @@
 **2º ejercicio para la evaluación**
 
-****Consiste en extraer información de una web a elección del alumno, utilizando la técnica scrapping****
+****Consiste en extraer información de una web a elección del alumno, mediante Jsoup y crear una interfaz en JavaFX****
 
 + Código de la clase
 ```java
