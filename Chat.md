@@ -125,3 +125,5 @@ public class App {
 ```
 ____
 ***Véase una imagen de ejemplo***
+
+https://github.com/cynthiazl/PSP/blob/master/chatSockets.png
