@@ -126,4 +126,6 @@ public class App {
 ____
 ***Véase una imagen de ejemplo***
 
-https://github.com/cynthiazl/PSP/blob/master/chatSockets.png
+<img src="https://github.com/cynthiazl/PSP/blob/master/chatSockets.png" width="350"/>
+
+
