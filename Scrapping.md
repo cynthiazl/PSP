@@ -1,4 +1,7 @@
-**Código de la clase**
+***2º ejercicio para la evaluación***
+****Consiste en extraer información de una web a elección del alumno, utilizando la técnica scrapping****
+
++ Código de la clase
 ```java
 package sample;
 
